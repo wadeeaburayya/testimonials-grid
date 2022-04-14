@@ -1,0 +1,93 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 20px;
+}
+.span {
+    grid-column: span 2;
+}
+.A {
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    background-size: 120px;
+    position: relative;
+    display: flexbox;
+    flex-direction: column;
+    border: 1px solid none;
+    background-color: #733fc8;
+    border-radius: 3%;
+    padding: 20px;
+}
+.B {
+    position: relative;
+    display: flexbox;
+    flex-direction: column;
+    border: 1px solid none;
+    background-color: #49556b;
+    border-radius: 3%;
+    padding: 20px;
+}
+.C {
+    position: relative;
+    display: flexbox;
+    flex-direction: column;
+    border: 1px solid none;
+    border-radius: 3%;
+    grid-column: 1;
+    background-color: white;
+    padding: 20px;
+}
+.D {
+    position: relative;
+    display: flexbox;
+    flex-direction: column;
+    border: 1px solid none;
+    background-color: #18202d;
+    border-radius: 3%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 20px;
+}
+
+.E {
+    position: relative;
+    display: flexbox;
+    flex-direction: column;
+    border: 1px solid none;
+    border-radius: 3%;
+    grid-column: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: white;
+    padding: 20px;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    background-color: #edf2f8;
+}
+img {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+span {
+    position: absolute;
+    padding-left: 30px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+h2 {
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+p {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 13px;
+    line-height: 2.3;
+    color: #aaadb2;
+    font-weight: bold;
+}
